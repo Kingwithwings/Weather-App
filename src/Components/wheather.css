@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.wheather {
+  place-self: center;
+  padding: 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, #2f4680, #500ae4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Searchbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.input {
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding-left: 25px;
+  color: #626262;
+  background: #ebfffc;
+  font-size: 18px;
+}
+
+.search_icon {
+  width: 50px;
+  padding: 10px;
+  border-radius: 50px;
+  background: #ebfffc;
+}
+
+.wheather_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wheather_img {
+  width: 150px;
+  margin: 30px;
+}
+.temperature {
+  color: #fff;
+  font-size: 80px;
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+}
+.location {
+  color: #fff;
+  font-size: 40px;
+}
+
+.wheather_data {
+  width: 100%;
+  margin-top: 40px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wheather_data .col {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 22px;
+  margin: 15px;
+}
+.wheather_data .col p {
+  font-size: 16px;
+}
+.wheather_data .col span {
+  display: block;
+  font-size: 16px;
+}
+.wheather_data .col img {
+  width: 36px;
+  margin-top: 10px;
+}
